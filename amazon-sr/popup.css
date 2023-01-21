@@ -1,0 +1,26 @@
+body{
+    width: 250px;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(247, 67, 103);
+    color: white;
+    padding: 1px;
+}
+
+main{
+    text-align: center;
+}
+
+#toggle{
+    margin: 0.7em;
+    font-size: 1.2em;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,41 @@
+{
+    "name":"Amazon Customer Satisfaction Rate Tool",
+    "version":"1.0.0",
+    "description":"This tool calculates the customer satisfaction rate for each product using basic probability and statistics",
+    "permissions":["tabs","activeTab","storage"],
+    "background":{
+        "service_worker":"background.js"
+    },
+    "content_scripts":[
+        {
+            "matches":["https://*.amazon.in/*","https://*.amazon.com/*"],
+            "js":["contentScript.js"],
+            "run_at":"document_end"
+        }
+    ],
+
+    "web_accessible_resources":[
+        {
+            "resources":[
+
+            ],
+            "matches":["https://*.amazon.in/*","https://*.amazon.com/*"]
+        }
+    ],
+    "action":{
+        "default_icon":{
+            "16": "assets/sr-icon.png",
+            "48": "assets/sr-icon.png",
+            "128": "assets/sr-icon.png"
+        },
+        "default_title":"Amazon-SR",
+        "default_popup":"popup.html"
+    },
+    "icons": {
+        "16": "assets/sr-icon.png",
+        "32": "assets/sr-icon.png",
+        "48": "assets/sr-icon.png",
+        "128": "assets/sr-icon.png"
+    },
+    "manifest_version":3
+}
