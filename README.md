@@ -14,8 +14,8 @@ Let's say there are two products one with 4.5 star, 100 reviews and other with 4
 As of now, It shows the Satisfaction Rate(SR) or also the probability of customer's satisfaction only on the amazon search page and the specific product pages.
 
 <p float="left">
-<img src=https://user-images.githubusercontent.com/108319876/213880895-e2469b41-e554-4aab-8946-74678c8d5bf6.png alt="Product Page" width="500">
-<img src=https://user-images.githubusercontent.com/108319876/213880897-5afd4758-6ce6-459c-9e8b-c145a938eaf1.png alt="Search Page" width="500">
+<img src=https://user-images.githubusercontent.com/108319876/213880895-e2469b41-e554-4aab-8946-74678c8d5bf6.png alt="Product Page" width="400">
+<img src=https://user-images.githubusercontent.com/108319876/213880897-5afd4758-6ce6-459c-9e8b-c145a938eaf1.png alt="Search Page" width="400">
 </p>
 
 <div>
